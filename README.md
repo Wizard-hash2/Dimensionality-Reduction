@@ -37,5 +37,15 @@ PCA simplifies the data, then Logistic Regression proves the simplified version 
 6. choose the k eigen vectors that corresponds to the k largest eigen values  to construct d*k  dimensional  transformation matrix, W; the eigenvectors are the columns of matrix
 7. Project the examples of the examples onto the new feature subspace using the transformation  matrix, w
 
+# Nonlinear  dimensionality reduction
+The development and application of nonlinear dimensionality reduction techniques is also often referred to as manifold learning, where a manifold refers to a lower dimensional topological space embedded in a high-dimensional space. Algorithms for manifold learning have to capture the complicated structure of the data in order to project it onto a lower-dimensional space where the relationship between data points is preserved.
+
+for more details: http://scikit-learn.org/stable/modules/manifold.html.
+
+
+# Visualizing data via t-distributed stochastic neighbor embedding
+
+Visualizing data using t-SNE by Maaten and Hinton, Journal of Machine Learning Research, 2018 (https://www.jmlr.org/papers/volume9/vandermaaten08a/vandermaaten08a.pdf)
+
 
 
